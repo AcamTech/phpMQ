@@ -10,8 +10,6 @@ phpMQ - PHP Message Queue System
 [![Monthly Downloads](https://poser.pugx.org/phpmq/phpmq/d/monthly.png)](https://packagist.org/packages/phpmq/phpmq)
 [![Daily Downloads](https://poser.pugx.org/phpmq/phpmq/d/daily.png)](https://packagist.org/packages/phpmq/phpmq)
 
-# Please note not ready for use yet
-
 phpMQ - A simple, fast queue manager and task executor. Stack your tasks to queue and execute them later.
 
 phpMQ is a fast and secure queue manager and executor for PHP. It is a way to manage asynchronous, potentially long-running PHP tasks such as API requests, database export/import operations, email sending, payment notification handlers, feed generation etc.
