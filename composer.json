@@ -29,8 +29,7 @@
   {
     "php": ">=5.4.0",
     "ext-PDO": "*",
-    "rhumsaa/uuid": "~2.8",
-    "jamesmoss/toml": "~1.0"
+    "rhumsaa/uuid": "~2.8"
   },
   "require-dev":
   {
