@@ -1,5 +1,5 @@
 {
-  "name": "phpmq/library",
+  "name": "phpmq/phpmq",
   "description": "phpMQ - Simple PHP/mySQL Message Queue System (Library)",
   "keywords": [
     "queue",
@@ -21,8 +21,8 @@
   "support":
   {
     "email": "phpmq@jenolan.org",
-    "issues": "https://github.com/phpMQ/Library/issues",
-    "source": "https://github.com/phpMQ/Library"
+    "issues": "https://github.com/phpMQ/phpMQ/issues",
+    "source": "https://github.com/phpMQ/phpMQ"
   },
   "license": "MIT",
   "require":
