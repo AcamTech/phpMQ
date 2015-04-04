@@ -13,8 +13,8 @@ class pdomTest extends \PHPUnit_Framework_TestCase {
     private $m;
 
     private $dsn      = 'mysql:host=127.0.0.1;dbname=phpmq_test';
-    private $username = 'phpmq';
-    private $password = '123';
+    private $username = 'travis';
+    private $password = '';
     private $options_pdo = [];
 
     /**
