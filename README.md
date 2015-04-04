@@ -1,14 +1,14 @@
 phpMQ - PHP Message Queue System
 ======
 
-[![Build Status](https://travis-ci.org/phpMQ/Library.svg)](https://travis-ci.org/phpMQ/Library)
-[![Latest Stable Version](https://poser.pugx.org/phpmq/library/v/stable.svg)](https://packagist.org/packages/phpmq/library) 
-[![Latest Unstable Version](https://poser.pugx.org/phpmq/library/v/unstable.svg)](https://packagist.org/packages/phpmq/library) 
-[![License](https://poser.pugx.org/phpmq/library/license.svg)](http://opensource.org/licenses/MIT)
+[![Build Status](https://travis-ci.org/phpMQ/phpMQ.svg)](https://travis-ci.org/phpMQ/phpMQ)
+[![Latest Stable Version](https://poser.pugx.org/phpmq/phpmq/v/stable.svg)](https://packagist.org/packages/phpmq/phpmq) 
+[![Latest Unstable Version](https://poser.pugx.org/phpmq/phpmq/v/unstable.svg)](https://packagist.org/packages/phpmq/phpmq) 
+[![License](https://poser.pugx.org/phpmq/phpmq/license.svg)](http://opensource.org/licenses/MIT)
 
-[![Total Downloads](https://poser.pugx.org/phpmq/library/downloads.svg)](https://packagist.org/packages/phpmq/library) 
-[![Monthly Downloads](https://poser.pugx.org/phpmq/library/d/monthly.png)](https://packagist.org/packages/phpmq/library)
-[![Daily Downloads](https://poser.pugx.org/phpmq/library/d/daily.png)](https://packagist.org/packages/phpmq/library)
+[![Total Downloads](https://poser.pugx.org/phpmq/phpmq/downloads.svg)](https://packagist.org/packages/phpmq/phpmq) 
+[![Monthly Downloads](https://poser.pugx.org/phpmq/phpmq/d/monthly.png)](https://packagist.org/packages/phpmq/phpmq)
+[![Daily Downloads](https://poser.pugx.org/phpmq/phpmq/d/daily.png)](https://packagist.org/packages/phpmq/phpmq)
 
 # Please note not ready for use yet
 
