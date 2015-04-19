@@ -23,21 +23,28 @@ class pdom extends Access
 {
     protected $dbh   = null;
 
-    public function __construct(  $dsn, $username = null, $password = null, array $options = array() )
+    public function __construct( $dsn, $username = null, $password = null, array $options = array() )
     {
         parent::__construct( PHPMQ_CLIENT && PHPMQ_SERVER );       // Allow both server and client functions
-        $this->config['dsn']      = $dsn;
-        $this->config['username'] = $username;
-        $this->config['password'] = $password;
-        $this->config['options']  = $options;
-        try
-        {
-            $this->dbh = new \PDO( $dsn, $username, $password, $options );
-        }
-        catch( PDOException $e )
-        {
-            throw new pdoDBException( $e );
-        }
+	    if( $dsn instanceof PDO )
+	    {
+		    $this->dbh = $dsn;
+	    }
+	    else
+	    {
+		    $this->config['dsn']      = $dsn;
+		    $this->config['username'] = $username;
+		    $this->config['password'] = $password;
+		    $this->config['options']  = $options;
+		    try
+		    {
+			    $this->dbh = new \PDO( $dsn, $username, $password, $options );
+		    }
+		    catch( PDOException $e )
+		    {
+			    throw new pdoDBException( $e );
+		    }
+	    }
     }
 
     public function __destruct()

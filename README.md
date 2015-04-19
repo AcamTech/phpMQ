@@ -43,6 +43,7 @@ Usage examples are in example.php
 **Documentation and Help**
 
  * Visit the [homepage](http://phpmq.org/) for more information
+ * [Documentation](https://phpmq.readme.io)
  * [Bug Tracker](https://github.com/phpmq/phpmq/issues)
  * If you make improvements or bug fixes please generate a pull request
 
